@@ -1,11 +1,11 @@
-#' List of available data sets from Statistics Norway (SSB) API
+#' Download list of available data sets from Statistics Norway (SSB) API
 #' 
-#' Download an updated list of available data sets from Statistics Norway (SSB)
+#' Download an updated list of available data sets from the Statistics Norway (SSB)
 #' API. Returns a data frame. 
 #'
 #' @param lang Language of available data sets to return. Can be "en" for english or "no" for norwegian.
 #' @return Data frame listing all available data sets, with ID, title, tags and URLs.
-#' @note The \code{ssbR} package ships with a local data frame with infromation on all
+#' @note The \code{ssbR} package ships with a local data frame with information on all
 #'     data sets available on 03-01-2016. You can retrieve a new list of available data
 #'     sets using \code{ssb_list()}, and give to to \code{ssb_search()} via the \code{list}
 #'     argument.

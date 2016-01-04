@@ -9,8 +9,8 @@
 #'     the function uses a local list for the search (unless \code{update_list} is set to \code{TRUE}).
 #' @param update_list If \code{TRUE} the function downloads and use an updated list of available data
 #'     sets for the search.
-#' @param print_results If \code{TRUE} it will print the results in the terminal.
-#' @param return_results If \code{TRUE} it returns the results as data frame, otherwise it returns \code{NULL}.
+#' @param print_results If \code{TRUE} search results are printed to the terminal.
+#' @param return_results If \code{TRUE} results are returned as a data frame, otherwise it returns \code{NULL}.
 #' @return Data frame with id, title, tag and URLs of data sets matching the provided search
 #' terms.
 #' @examples

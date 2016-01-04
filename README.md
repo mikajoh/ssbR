@@ -1,6 +1,6 @@
-### ssbR: Download data from Statistics Norway's (SSB)
+### ssbR: Download data from Statistics Norway (SSB)
 
-This R-package provides functions for viewing, searching and downloading data from Statistics Norway's (SSB) directly in R.
+This R-package provides functions for viewing, searching and downloading data from Statistics Norway (SSB) directly in R.
 
 #### Installation
 

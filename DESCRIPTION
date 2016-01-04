@@ -1,8 +1,8 @@
 Package: ssbR
-Title: Download data from Statistics Norway's (SSB)
+Title: Download data from Statistics Norway (SSB)
 Version: 0.0.0.9000
 Authors@R: person("Mikael Poul", "Johannesson", email = "mikael.johannesson@uib.no", role = c("aut", "cre"))
-Description: View, search and download data from Statistics Norway's (SSB)
+Description: View, search and download data from Statistics Norway (SSB)
     directly in R
 Depends:
     rjstat

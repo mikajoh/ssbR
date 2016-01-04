@@ -19,7 +19,7 @@
 ssb <- function(id, lang = "en") {
     if (!id %in% ssb_data$en$id) {
         temp_list <- ssb_list()
-        if (!id %in% temp_list) {
+        if (!id %in% temp_list$id) {
             stop(paste0("Can't find data set with id '", id, "'"))
         }
     }
